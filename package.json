@@ -1,0 +1,26 @@
+{
+  "name": "mayoral-crawler",
+  "version": "1.0.0",
+  "description": "node crawler to crawl https://www.childrensalon.com/designer/mayoral",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tomowang/mayoral-crawler.git"
+  },
+  "author": "Tomo Wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomowang/mayoral-crawler/issues"
+  },
+  "homepage": "https://github.com/tomowang/mayoral-crawler#readme",
+  "dependencies": {
+    "async": "^2.1.5",
+    "cheerio": "^0.22.0",
+    "lodash": "^4.17.4",
+    "request": "^2.81.0"
+  }
+}
